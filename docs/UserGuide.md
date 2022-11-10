@@ -2,9 +2,6 @@
 layout: page title: User Guide
 ---
 
-<a id="top"></a>
-
-
 SETA (Software Engineering for Teaching Assistants) is a **desktop application for CS2103T Teaching Assistants** to 
 track 
 students’ and 
@@ -602,4 +599,3 @@ information for the student, question and tutorial list.
 
 A [hard disk](https://en.wikipedia.org/wiki/Hard_disk_drive) (or hard disk drive) is a data storage device that 
 stores and retrieves digital data. This is found in your device that is running SETA.
-
