@@ -33,7 +33,7 @@ The following table will tell you the purpose of the icons used in this User Gui
 
 * **[Quick Start](#quick-start)**
 * **[Features](#features)**
-    * **[Students](#students)**
+    * <strong><a href="students">Students</a></strong>
         * Adding a student: [`addstu`](#adding-a-student--addstu)
         * Editing a student: [`editstu`](#editing-a-student-editstu)
         * Adding student's attendance: [`attendance`](#adding-students-attendance--attendance)
@@ -127,7 +127,7 @@ the number of items in its respective list e.g. for `markq`, `INDEX` must be les
 
 </div>
 
-### Students
+### <u id="students">Students</u>
 
 The features under the student category allow you to keep track of and manage the students under you.
 You can see your student's details, such as their names, telegram handles, and email. The latter two aid you in
