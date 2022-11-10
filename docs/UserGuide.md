@@ -3,7 +3,7 @@ layout: page
 title: User Guide
 ---
 
-<a id="top"></a>
+<a id="top">Back to top</a>
 
 SETA is a **desktop application for CS2103T Teaching Assistants** to track students’ and tutorials’ details, and
 questions asked by students. SETA is optimized for use via a [Command Line Interface (CLI)](#command-line-interface-cli) while still having the
@@ -604,5 +604,3 @@ Its purpose is to use human-readable text to store and transmit data objects.
 ### Hard Disk
 
 A [hard disk](https://en.wikipedia.org/wiki/Hard_disk_drive) (or hard disk drive) is a data storage device that stores and retrieves digital data. 
-
-<a href="#top">Go to top</a>
