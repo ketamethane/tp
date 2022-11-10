@@ -33,7 +33,7 @@ The following table will tell you the purpose of the icons used in this User Gui
 
 * **[Quick Start](#quick-start)**
 * **[Features](#features)**
-    * <strong><a href="students">Students</a></strong>
+    * <a href="students"><strong>Students</strong></a>
         * Adding a student: [`addstu`](#adding-a-student--addstu)
         * Editing a student: [`editstu`](#editing-a-student-editstu)
         * Adding student's attendance: [`attendance`](#adding-students-attendance--attendance)
