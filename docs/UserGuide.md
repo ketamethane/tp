@@ -136,7 +136,7 @@ he or she has sent on Zoom) to record their participation.
 
 ### Adding a student : `addstu`
 
-The `addstu` feature allows you to add a student to SETA. To add a student, you must include their name, telegram handle
+This feature allows you to add a student to SETA. To add a student, you must include their name, telegram handle
 and email.
 
 **Format**: `addstu n/NAME h/TELEGRAM_HANDLE e/EMAIL`
@@ -166,7 +166,7 @@ and email.
 
 ### Editing a student: `editstu`
 
-The `editstu` feature allows you to edit an existing student in the student list. Editing a student enables you to amend any mistake
+This feature allows you to edit an existing student in the student list. Editing a student enables you to amend any mistake
 or changes made to the student's details.
 
 **Format**: `editstu INDEX [n/NAME] [h/TELEGRAM_HANDLE] [e/EMAIL] [a/ATTENDANCE]`
@@ -228,7 +228,7 @@ Example:
 
 ### Adding student's response: `addresponse`
 
-The `addresponse` feature allows you to edit your students' response count. This helps you to track your 
+This feature allows you to edit your students' response count. This helps you to track your 
 student's participation in the tutorial through the recording number of messages sent by him/her.
 
 Format: `addresponse INDEX m/MESSAGE_COUNT`
@@ -433,7 +433,7 @@ Example:
 
 ### Marking a tutorial: `marktut`
 
-The `marktut` feature allows you to mark a tutorial as complete.
+This feature allows you to mark a tutorial as complete.
 
 Format: `marktut INDEX`
 
@@ -449,7 +449,7 @@ Example:
 
 ### Unmarking a tutorial: `unmarktut`
 
-The `unmarktut` feature allows you to unmark the tutorial as complete. If a tutorial was mistakenly marked as done, 
+This feature allows you to unmark the tutorial as complete. If a tutorial was mistakenly marked as done, 
 you can undo it using this feature.
 
 Format: `unmarktut INDEX`
@@ -465,8 +465,8 @@ Example:
 
 ### Clearing data in SETA : `clear`
 
-Clears the data in SETA. Use this to clear the sample data given at the beginning or when you
-want to start adding students, questions and tutorials from scratch again.
+This feature allows you to clear all the data in SETA. You can use this feature to clear the sample data given at the beginning or when you
+want to delete all the data you have at once.
 
 Format: `clear `
 
@@ -618,6 +618,4 @@ Its purpose is to use human-readable text to store and transmit data objects.
 
 ### Hard Disk
 
-A [hard disk](https://en.wikipedia.org/wiki/Hard_disk_drive) (or hard disk drive) is a data storage device that stores and retrieves digital data. 
-
-<a href="#top">Go to top</a>
+A [hard disk](https://en.wikipedia.org/wiki/Hard_disk_drive) (or hard disk drive) is a data storage device that stores and retrieves digital data.
