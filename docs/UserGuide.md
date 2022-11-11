@@ -134,8 +134,6 @@ SETA contains features that allow you to manage 3 things:
 
 * `INDEX` refers to the index number shown in the respective displayed list.
 
-</div>
-Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ## Students
