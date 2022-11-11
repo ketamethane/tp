@@ -302,7 +302,7 @@ Format: `deletestu INDEX`
 Example:
 
 * `deletestu 2`
-  <img src="images/ug-screenshots/deletestu_before.png" alt="deletestu 2" width="800">
+  <img src="images/ug-screenshots/deletestu_after.png" alt="deletestu 2" width="800">
 
 ### Finding a student: `findstu`
 
