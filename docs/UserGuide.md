@@ -413,6 +413,7 @@ Format: `addtut [g/GROUP_NUMBER] [c/CONTENT] [t/DATE TIME]`
 </div>
 
 Example:
+_Refer to the next page for an example._
 
 * `addtut g/T08 c/UML diagrams t/2022-10-01 1400`
   <img src="images/ug-screenshots/addtut_2101.png" width="800">
@@ -438,7 +439,7 @@ Format: `marktut INDEX`
 * Marks the tutorial at the specified `INDEX`.
 
 Example:
-
+_Refer to the next page for an example._
 * `marktut 1` marks the first tutorial from the tutorial list as done.
 <img src="images/ug-screenshots/marktut.png" alt="before" width="800">
 
@@ -483,7 +484,7 @@ update data directly by editing that data file.
 
 <div markdown="span" class="alert alert-danger">:exclamation: **Caution:**
 If your changes to the data file make its format invalid, SETA will discard all data and start with an empty data file at the next run.
-
+</div>
 <div style="page-break-after: always;"></div>
 
 ## FAQ
