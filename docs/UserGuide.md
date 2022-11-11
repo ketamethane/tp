@@ -244,7 +244,7 @@ Format: `addresponse INDEX m/MESSAGE_COUNT`
 * Edits response count of the student at the specified `INDEX`.
     * If `addresponse 1 m/7` is keyed in after `addresponse 1 m/2`, the response count for the first student in the
       student list will be 7 instead of 2.
-* If `m\0000000000` is given as an input, 0s will not be truncated and response will be displayed as
+* If `m\0000000000` is given as an input, 0s will not be truncated and the response will be displayed as
   `response: 000000000`
 
 <div markdown="block" class="alert alert-warning">
