@@ -132,6 +132,8 @@ SETA contains features that allow you to manage 3 things:
 
 </div>
 
+<div style="page-break-after: always;"></div>
+
 ### Students
 
 The features under the student category allow you to keep track of and manage the students under you. You can see your
