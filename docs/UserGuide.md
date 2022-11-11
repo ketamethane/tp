@@ -29,7 +29,6 @@ The following table will tell you the purpose of the icons used in this User Gui
 | :exclamation:        | Important word of caution                           |
 
 
-<div style="page-break-after: always;"></div>
 
 ## Table of Contents
 
@@ -59,8 +58,6 @@ The following table will tell you the purpose of the icons used in this User Gui
 * **[FAQ](#faq)**
 * **[Command Summary](#command-summary)**
 * **[Glossary](#glossary)**
-
-<div style="page-break-after: always;"></div>
 
 ## Quick Start
 
@@ -135,7 +132,6 @@ student's details, such as their names, telegram handles, and email. The latter 
 if necessary. You can also track each student's attendance and responses (the number of messages he or she has sent on
 Zoom) to record their participation.
 
-<div style="page-break-after: always;"></div>
 
 ### Adding a student : `addstu`
 
