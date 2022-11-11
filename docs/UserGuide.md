@@ -486,7 +486,7 @@ If your changes to the data file make its format invalid, SETA will discard all 
 
 You can find answers to frequently asked questions here.
 
-<h3><strong>General</strong></h3>
+<h3>General</h3>
 
 <strong>Q: How do I transfer my data to another Computer?</strong><br>
 <strong>A</strong>: Install the app on the other computer and overwrite the empty data file it creates with the file
@@ -518,7 +518,7 @@ troublesome!
 using our application!
 <div style="page-break-after: always;"></div>
 
-<h3><strong>Students</strong></h3>
+<h3>Students</h3>
 
 <strong>Q: How do I edit the attendance for my student?</strong><br>
 <strong>A</strong>: There are 2 ways you can edit the attendance of your students!
@@ -528,12 +528,12 @@ using our application!
 * Using the `attendance` feature. The `attendance` feature allows you to increase attendance by 1.   
   (E.g. `attendance 2` increases attendance of student 2 by 1.)
 
-<h3><strong>Questions</strong></h3>
+<h3>Questions</h3>
 
 <strong>Q: Is there a way to delete all the questions using one command?</strong><br>
 <strong>A</strong>: Unfortunately, this feature will be rolled out in a future version of the app. Stay tuned!
 
-<h3><strong>Tutorials</strong></h3>
+<h3>Tutorials</h3>
 
 <strong>Q: Can I type the date and time in a different format?</strong><br>
 <strong>A</strong>: Unfortunately, the current version of SETA only accepts the date and time format
