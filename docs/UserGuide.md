@@ -128,14 +128,14 @@ SETA contains features that allow you to manage 3 things:
 
 </div>
 
-<div style="page-break-after: always;"></div>
-
 ### Students
 
 The features under the student category allow you to keep track of and manage the students under you. You can see your
 student's details, such as their names, telegram handles, and email. The latter two aid you in contacting any students
 if necessary. You can also track each student's attendance and responses (the number of messages he or she has sent on
 Zoom) to record their participation.
+
+<div style="page-break-after: always;"></div>
 
 ### Adding a student : `addstu`
 
