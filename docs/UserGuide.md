@@ -496,7 +496,7 @@ need to save manually.
 SETA data are saved as a [JSON file](#json-file) `[JAR file location]/data/seta.json`. Advanced users are welcome to
 update data directly by editing that data file.
 
-<div markdown="span" class="alert alert-warning">:exclamation: **Caution:**
+<div markdown="span" class="alert alert-danger">:exclamation: **Caution:**
 If your changes to the data file make its format invalid, SETA will discard all data and start with an empty data file at the next run.
 
 </div>
