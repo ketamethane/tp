@@ -419,7 +419,7 @@ Format: `addtut [g/GROUP_NUMBER] [c/CONTENT] [t/DATE TIME]`
 Example:
 
 * `addtut g/T08 c/UML diagrams t/2022-10-01 1400`
-  <img src="images/ug-screenshots/addtut.png" width="800">
+  <img src="images/ug-screenshots/addtut_2101.png" width="800">
 
 ### Deleting a tutorial : `deletetut`
 
