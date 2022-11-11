@@ -474,8 +474,9 @@ need to save manually.
 SETA data are saved as a [JSON file](#json-file) `[JAR file location]/data/seta.json`. Advanced users are welcome to
 update data directly by editing that data file.
 
-<div markdown="span" class="alert alert-danger">:exclamation: **Caution:**
-If your changes to the data file makes its format invalid, SETA will discard all data and start with an empty data file at the next run.
+<div markdown="span" class="alert alert-warning">:exclamation: **Caution:**
+If your changes to the data file make its format invalid, SETA will discard all data and start with an empty data file at the next run.
+
 </div>
 
 
@@ -515,6 +516,7 @@ troublesome!
 <strong>Q: What does the question mark at the top left-hand of the application do?</strong>  
 <strong>A</strong>: You can simply click on that button to view the link to our User Guide if you face any issues when
 using our application!
+<div style="page-break-after: always;"></div>
 
 <h3><strong>Students</strong></h3>
 
@@ -523,7 +525,7 @@ using our application!
 
 * Using the `editstu` feature. The `editstu` feature allows you to edit the attendance by any number.   
   (E.g. `editstu 3 a/5` changes the attendance of student 3 to 5.)
-* Using the `attendance` feature. The `attendance` feature allows you to increase the attendance by 1.   
+* Using the `attendance` feature. The `attendance` feature allows you to increase attendance by 1.   
   (E.g. `attendance 2` increases attendance of student 2 by 1.)
 
 <h3><strong>Questions</strong></h3>
@@ -535,7 +537,7 @@ using our application!
 
 <strong>Q: Can I type the date and time in a different format?</strong><br>
 <strong>A</strong>: Unfortunately, the current version of SETA only accepts the date and time format
-of `YYYY-MM-DD HHmm`. However, there will be improvements made in the near future so that SETA can take in other date
+of `YYYY-MM-DD HHmm`. However, there will be improvements made soon so that SETA can take in other date
 and time formats to better serve you. Please look forward to it!
 
 
@@ -562,7 +564,7 @@ This command summary gives you an overview of all the commands available in SETA
 
 ## Glossary
 
-This glossary provides the definitions of certain terms used in this user guide.
+This glossary provides you with the definitions of certain terms used in this user guide.
 
 ### Command Line Interface (CLI)
 
