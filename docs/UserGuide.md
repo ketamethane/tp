@@ -264,7 +264,7 @@ Example:
 
 This feature allows you to add a help tag to an existing student. When you notice that a specific student has not been
 attending tutorials or needs help in general, you can enter this command to indicate that the student needs help. You
-will then have a rough idea who needs more of your attention during tutorials.
+will then have a rough idea of who needs more of your attention during tutorials.
 
 Format: `helpstu INDEX`
 
@@ -504,9 +504,9 @@ able to see the sample data now.
 
    <br>
 
-<strong>Q: What is the difference between using the `exit` command and the cross button at the top right hand of the
+<strong>Q: What is the difference between using the `exit` command and the cross button at the top right-hand of the
 application?</strong><br>
-<strong>A</strong>: Both does the same job! The cross button is for your convenience if you feel typing `exit` is too
+<strong>A</strong>: Both do the same job! The cross button is for your convenience if you feel typing `exit` is too
 troublesome!
 
    <br>
