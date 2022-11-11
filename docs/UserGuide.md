@@ -169,8 +169,7 @@ email.
 
 **Example**:
 * _Refer to the next page for an example._
-<br><br>
-Back to <a href="toc">Table of Contents</a>
+
 <div style="page-break-after: always;"></div>
 
 * `addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com`
