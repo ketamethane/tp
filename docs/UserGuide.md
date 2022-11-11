@@ -30,6 +30,7 @@ The following table will tell you the purpose of the icons used in this User Gui
 | :exclamation:        | Important word of caution                           |
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
 
 ## Table of Contents
 
@@ -59,7 +60,8 @@ The following table will tell you the purpose of the icons used in this User Gui
 * **[FAQ](#faq)**
 * **[Command Summary](#command-summary)**
 * **[Glossary](#glossary)**
-
+* 
+<div style="page-break-after: always;"></div>
 --------------------------------------------------------------------------------------------------------------------
 
 ## Quick Start
