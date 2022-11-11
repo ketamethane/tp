@@ -17,8 +17,7 @@ tutorials and note-down questions more effectively than traditional GUI apps.
 The purpose of this guide is to inform you what features are available in SETA, and how to use them to solve your needs
 as a CS2103T TA.
 
---------------------------------------------------------------------------------------------------------------------
-
+-------------------------------------------------------------------------------------------------------------------
 ## Icons
 
 The following table will tell you the purpose of the icons used in this User Guide.
@@ -29,7 +28,7 @@ The following table will tell you the purpose of the icons used in this User Gui
 | :information_source: | Additional useful explanation given                 |
 | :exclamation:        | Important word of caution                           |
 
---------------------------------------------------------------------------------------------------------------------
+
 <div style="page-break-after: always;"></div>
 
 ## Table of Contents
@@ -60,9 +59,8 @@ The following table will tell you the purpose of the icons used in this User Gui
 * **[FAQ](#faq)**
 * **[Command Summary](#command-summary)**
 * **[Glossary](#glossary)**
-* 
+
 <div style="page-break-after: always;"></div>
---------------------------------------------------------------------------------------------------------------------
 
 ## Quick Start
 
@@ -93,8 +91,6 @@ Some example commands you can try:
 * **`exit`**: Exits the app.
 
 You can refer to the [Features](#features) below for details of each command.
-
---------------------------------------------------------------------------------------------------------------------
 
 ## Features
 
