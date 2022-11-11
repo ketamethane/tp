@@ -574,6 +574,7 @@ This command summary gives you an overview of all the commands available in SETA
 | **Tag**        | `helpstu`, `unhelpstu`                     |
 | **Clear**      | `clear`                                    |
 | **Exit**       | `exit`                                     |
+
 <br>
 Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
