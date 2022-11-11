@@ -62,7 +62,7 @@ The following table will tell you the purpose of the icons used in this User Gui
 * **[FAQ](#faq)**
 * **[Command Summary](#command-summary)**
 * **[Glossary](#glossary)**
-Back to <a href="toc">Table of Contents</a>
+Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ## Quick Start
@@ -97,7 +97,7 @@ Some example commands you can try:
 
 You can refer to the [Features](#features) below for details of each command.
 
-Back to <a href="toc">Table of Contents</a>
+Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ## Features
@@ -136,7 +136,7 @@ SETA contains features that allow you to manage 3 things:
 * `INDEX` refers to the index number shown in the respective displayed list.
 
 </div>
-Back to <a href="toc">Table of Contents</a>
+Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ## Students
@@ -173,13 +173,13 @@ email.
 **Example**:
 * _Refer to the next page for an example._
 <br><br>
-Back to <a href="toc">Table of Contents</a>
+Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 * `addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com`
 <img src="images/ug-screenshots/addstu.png" alt="addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com" width="800">
 <br><br>
-Back to <a href="toc">Table of Contents</a>
+Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ### Editing a student: `editstu`
@@ -218,7 +218,7 @@ mistake or changes made to the student's details.
 **Examples**:
 * _Refer to the next page for an example._
 <br><br>
-Back to <a href="toc">Table of Contents</a>
+Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 * `editstu 1 h/@aliceP a/4` Edits the telegram handle and attendance of the 1st student to @aliceP and 4
@@ -231,7 +231,7 @@ Back to <a href="toc">Table of Contents</a>
       <img src="images/ug-screenshots/editstu_after.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="800">
 
 <br>
-Back to <a href="toc">Table of Contents</a>
+Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
     
 ### Adding student's attendance : `attendance`
@@ -285,7 +285,7 @@ Example:
 * _Refer to the next page for an example._
 
 <br>
-Back to <a href="toc">Table of Contents</a>
+Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 * `helpstu 1`
 <img src="images/ug-screenshots/helpstu.png" alt="helpstu 1" width="800">
@@ -330,7 +330,7 @@ Examples:
 * `findstu john mary`
 
 <br>
-Back to <a href="toc">Table of Contents</a>
+Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ### Listing all students: `liststu`
@@ -456,7 +456,7 @@ Example:
 <img src="images/ug-screenshots/marktut.png" alt="before" width="800">
 
 <br>
-Back to <a href="toc">Table of Contents</a>
+Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ### Marking a tutorial as undone: `unmarktut`
@@ -501,7 +501,7 @@ If your changes to the data file make its format invalid, SETA will discard all 
 
 </div>
 
-Back to <a href="toc">Table of Contents</a>
+Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ## FAQ
@@ -562,7 +562,7 @@ using our application!
 of `YYYY-MM-DD HHmm`. However, there will be improvements made soon so that SETA can take in other date
 and time formats to better serve you. Please look forward to it!
 
-Back to <a href="toc">Table of Contents</a>
+Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ## Command Summary
@@ -583,7 +583,7 @@ This command summary gives you an overview of all the commands available in SETA
 | **Exit**       | [`exit`](#exiting-seta--exit)                                                                                                           |
 
 <br>
-Back to <a href="toc">Table of Contents</a>
+Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ## Glossary
@@ -599,7 +599,7 @@ your questions and tutorials.
 ![CommandBox](images/ug-screenshots/commandbox.png)
 
 <br>
-Back to <a href="toc">Table of Contents</a>
+Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ### Graphical User Interface (GUI)
@@ -622,4 +622,4 @@ A [hard disk](https://en.wikipedia.org/wiki/Hard_disk_drive) (or hard disk drive
 stores and retrieves digital data. This is found in your device that is running SETA.
 
 <br>
-Back to <a href="toc">Table of Contents</a>
+Back to <a href="#toc">Table of Contents</a>
