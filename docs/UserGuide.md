@@ -451,7 +451,7 @@ using this feature.
 
 Format: `unmarktut INDEX`
 
-* Unmark the tutorial at the specified `INDEX`.
+* Marks the tutorial as undone at the specified `INDEX`.
 
 Example:
 
