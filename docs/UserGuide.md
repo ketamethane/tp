@@ -23,11 +23,11 @@ as a CS2103T TA.
 
 The following table will tell you the purpose of the icons used in this User Guide.
 
-| Icon                 | Purpose                                             |
-|----------------------|-----------------------------------------------------|
-| :x:                  | Contains information on the constraints of commands |
-| :information_source: | Additional useful explanation given                 |
-| :exclamation:        | Important word of caution                           |
+| Icon                 | Purpose                                                                                          |
+|----------------------|--------------------------------------------------------------------------------------------------|
+| :x:                  | Contains information on the command constraints to ensure that your command is properly executed |
+| :information_source: | Additional useful explanation given                                                              |
+| :exclamation:        | Important word of caution                                                                        |
 
 <div style="page-break-after: always;"></div> <br>
 <a id="toc"></a>
