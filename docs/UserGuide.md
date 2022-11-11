@@ -294,7 +294,7 @@ Example:
 
 ### Deleting a student: `deletestu`
 
-This feature allows you to remove a specific student. If a student has left the module or swapped tutorial group, you
+This feature allows you to remove a specific student from the student list. If a student has left the module or swapped tutorial group, you
 can delete him or her from the list.
 
 Format: `deletestu INDEX`
@@ -401,15 +401,14 @@ Format: `addtut [g/GROUP_NUMBER] [c/CONTENT] [t/DATE TIME]`
 <div markdown="block" class="alert alert-warning">
 
 **:x: Command Constraints**<br>
-
+* Group and Content constraints
+    * The group and content should only contain alphanumeric characters and spaces, and it should not be blank.
 * Date constraints
     * Date must be in the form, YYYY-MM-DD.
 
 * Time constraints
     * Time must be in the 24hr format HHmm. (E.g. 1200 represents 12:00pm, 1300 represents 1.00pm)
     
-* Group and Content constraints
-    * The group and content should only contain alphanumeric characters and spaces, and it should not be blank.
 </div>
 
 Example:
@@ -420,7 +419,7 @@ Example:
 
 ### Deleting a tutorial : `deletetut`
 
-This feature allows you to delete a tutorial from SETA.
+This feature allows you to delete a tutorial from tutorial list.
 
 Format: `deletetut INDEX`
 
@@ -436,7 +435,7 @@ This feature allows you to mark a tutorial as complete.
 
 Format: `marktut INDEX`
 
-* Marks the tutorial at the specified `INDEX`.
+* Marks the tutorial as complete at the specified `INDEX`.
 
 Example:
 * _Refer to the next page for an example._
@@ -447,7 +446,7 @@ Example:
 
 ### Marking a tutorial as undone: `unmarktut`
 
-This feature allows you to unmark the tutorial as complete. If a tutorial was mistakenly marked as done, you can undo it
+This feature allows you to mark the tutorial as undone. If a tutorial was mistakenly marked as done, you can undo it
 using this feature.
 
 Format: `unmarktut INDEX`
