@@ -167,12 +167,13 @@ email.
 
 **Example**:
 * _Refer to the next page for an example._
+<br><br>
 Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 * `addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com`
 <img src="images/ug-screenshots/addstu.png" alt="addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com" width="800">
-<br>
+<br><br>
 Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
@@ -211,7 +212,7 @@ mistake or changes made to the student's details.
 
 **Examples**:
 * _Refer to the next page for an example._
-<br>
+<br><br>
 Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
@@ -277,6 +278,7 @@ Format: `helpstu INDEX`
 
 Example:
 * _Refer to the next page for an example._
+
 <br>
 Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
@@ -321,6 +323,7 @@ Examples:
 
 * `findstu bob`
 * `findstu john mary`
+
 <br>
 Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
@@ -445,6 +448,7 @@ Example:
 
 * `marktut 1` marks the first tutorial from the tutorial list as done.
 <img src="images/ug-screenshots/marktut.png" alt="before" width="800">
+
 <br>
 Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
@@ -568,7 +572,7 @@ This command summary gives you an overview of all the commands available in SETA
 | **Tag**        | `helpstu`, `unhelpstu`                     |
 | **Clear**      | `clear`                                    |
 | **Exit**       | `exit`                                     |
-
+<br>
 Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
@@ -583,6 +587,7 @@ to do is to type in the command box (red rectangle in the image below) and press
 your questions and tutorials.
 
 ![CommandBox](images/ug-screenshots/commandbox.png)
+
 <br>
 Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
