@@ -82,6 +82,8 @@ Back to <a href="toc">Table of Contents</a>
 5. Type the command in the command box and press Enter to execute it. e.g. typing **`liststu`** and pressing Enter will
    list all the students in the 'Student' column.<br>
 
+Congratulations! You are ready to embark on your SETA journey!
+
 Some example commands you can try:
 
 * **`addstu`**`n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com`: Adds a student named `John Lim Jun Jie` to the
