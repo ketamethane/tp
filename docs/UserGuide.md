@@ -25,15 +25,15 @@ as a CS2103T TA.
 
 The following table will tell you the purpose of the icons used in this User Guide.
 
-| Icon                 | Purpose                                             |
-|----------------------|-----------------------------------------------------|
-| :x:                  | Contains information on the constraints of commands |
-| :information_source: | Additional useful explanation given                 |
-| :exclamation:        | Important word of caution                           |
+| Icon                 | Purpose                                                                                          |
+|----------------------|--------------------------------------------------------------------------------------------------|
+| :x:                  | Contains information on the command constraints to ensure that your command is properly executed |
+| :information_source: | Additional useful explanation given                                                              |
+| :exclamation:        | Important word of caution                                                                        |
 
-<div style="page-break-after: always;"></div>
-
-## Table of Contents
+<div style="page-break-after: always;"></div> <br>
+<a id="toc"></a>
+## Table of Contents 
 
 * **[Quick Start](#quick-start)**
 * **[Features](#features)**
@@ -43,7 +43,7 @@ The following table will tell you the purpose of the icons used in this User Gui
         * Adding student's attendance: [`attendance`](#adding-students-attendance--attendance)
         * Adding student’s response: [`addresponse`](#adding-students-response-addresponse)
         * Adding help tag to a student: [`helpstu`](#adding-help-tag-helpstu)
-        * Removing help tag to a student: [`unhelpstu`](#removing-help-tag-unhelpstu)
+        * Removing help tag from a student: [`unhelpstu`](#removing-help-tag-unhelpstu)
         * Deleting a student: [`deletestu`](#deleting-a-student-deletestu)
         * Finding a student: [`findstu`](#finding-a-student-findstu)
         * Listing all students: [`liststu`](#listing-all-students-liststu)
@@ -62,7 +62,7 @@ The following table will tell you the purpose of the icons used in this User Gui
 * **[FAQ](#faq)**
 * **[Command Summary](#command-summary)**
 * **[Glossary](#glossary)**
-
+Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ## Quick Start
@@ -84,6 +84,8 @@ The following table will tell you the purpose of the icons used in this User Gui
 5. Type the command in the command box and press Enter to execute it. e.g. typing **`liststu`** and pressing Enter will
    list all the students in the 'Student' column.<br>
 
+Congratulations! You are ready to embark on your SETA journey!
+
 Some example commands you can try:
 
 * **`addstu`**`n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com`: Adds a student named `John Lim Jun Jie` to the
@@ -95,6 +97,7 @@ Some example commands you can try:
 
 You can refer to the [Features](#features) below for details of each command.
 
+Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ## Features
@@ -133,6 +136,7 @@ SETA contains features that allow you to manage 3 things:
 * `INDEX` refers to the index number shown in the respective displayed list.
 
 </div>
+Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ## Students
@@ -168,10 +172,14 @@ email.
 
 **Example**:
 * _Refer to the next page for an example._
+<br><br>
+Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 * `addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com`
 <img src="images/ug-screenshots/addstu.png" alt="addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com" width="800">
+<br><br>
+Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ### Editing a student: `editstu`
@@ -209,6 +217,8 @@ mistake or changes made to the student's details.
 
 **Examples**:
 * _Refer to the next page for an example._
+<br><br>
+Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 * `editstu 1 h/@aliceP a/4` Edits the telegram handle and attendance of the 1st student to @aliceP and 4
@@ -219,6 +229,9 @@ mistake or changes made to the student's details.
       <br>
     * **After**
       <img src="images/ug-screenshots/editstu_after.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="800">
+
+<br>
+Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
     
 ### Adding student's attendance : `attendance`
@@ -270,6 +283,9 @@ Format: `helpstu INDEX`
 
 Example:
 * _Refer to the next page for an example._
+
+<br>
+Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 * `helpstu 1`
 <img src="images/ug-screenshots/helpstu.png" alt="helpstu 1" width="800">
@@ -312,6 +328,9 @@ Examples:
 
 * `findstu bob`
 * `findstu john mary`
+
+<br>
+Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ### Listing all students: `liststu`
@@ -409,7 +428,7 @@ Format: `addtut [g/GROUP_NUMBER] [c/CONTENT] [t/DATE TIME]`
 Example:
 
 * `addtut g/T08 c/UML diagrams t/2022-10-01 1400`
-  <img src="images/ug-screenshots/addtut.png" width="800">
+  <img src="images/ug-screenshots/addtut_2101.png" width="800">
 
 ### Deleting a tutorial : `deletetut`
 
@@ -435,6 +454,9 @@ Example:
 
 * `marktut 1` marks the first tutorial from the tutorial list as done.
 <img src="images/ug-screenshots/marktut.png" alt="before" width="800">
+
+<br>
+Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ### Marking a tutorial as undone: `unmarktut`
@@ -479,7 +501,7 @@ If your changes to the data file make its format invalid, SETA will discard all 
 
 </div>
 
-
+Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ## FAQ
@@ -540,7 +562,7 @@ using our application!
 of `YYYY-MM-DD HHmm`. However, there will be improvements made soon so that SETA can take in other date
 and time formats to better serve you. Please look forward to it!
 
-
+Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ## Command Summary
@@ -560,6 +582,8 @@ This command summary gives you an overview of all the commands available in SETA
 | **Clear**      | [`clear`](#clearing-data-in-seta--clear)                                                                                                |
 | **Exit**       | [`exit`](#exiting-seta--exit)                                                                                                           |
 
+<br>
+Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ## Glossary
@@ -573,6 +597,9 @@ to do is to type in the command box (red rectangle in the image below) and press
 your questions and tutorials.
 
 ![CommandBox](images/ug-screenshots/commandbox.png)
+
+<br>
+Back to <a href="toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ### Graphical User Interface (GUI)
@@ -594,3 +621,5 @@ information for the student, question and tutorial list.
 A [hard disk](https://en.wikipedia.org/wiki/Hard_disk_drive) (or hard disk drive) is a data storage device that
 stores and retrieves digital data. This is found in your device that is running SETA.
 
+<br>
+Back to <a href="toc">Table of Contents</a>
