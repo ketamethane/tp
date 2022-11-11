@@ -133,6 +133,7 @@ SETA contains features that allow you to manage 3 things:
   list.
 
 * `INDEX` refers to the index number shown in the respective displayed list.
+</div>
 
 <div style="page-break-after: always;"></div>
 
