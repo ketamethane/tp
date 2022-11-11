@@ -32,7 +32,7 @@ The following table will tell you the purpose of the icons used in this User Gui
 | :exclamation:        | Important word of caution                                                                        |
 
 <div style="page-break-after: always;"></div> <br>
-<a id="toc"></a>
+
 ## Table of Contents 
 
 * **[Quick Start](#quick-start)**
@@ -62,7 +62,7 @@ The following table will tell you the purpose of the icons used in this User Gui
 * **[FAQ](#faq)**
 * **[Command Summary](#command-summary)**
 * **[Glossary](#glossary)**
-Back to <a href="#toc">Table of Contents</a>
+
 <div style="page-break-after: always;"></div>
 
 ## Quick Start
@@ -97,7 +97,6 @@ Some example commands you can try:
 
 You can refer to the [Features](#features) below for details of each command.
 
-Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ## Features
@@ -134,21 +133,20 @@ SETA contains features that allow you to manage 3 things:
   list.
 
 * `INDEX` refers to the index number shown in the respective displayed list.
-
 </div>
-Back to <a href="#toc">Table of Contents</a>
+
 <div style="page-break-after: always;"></div>
 
 ## Students
 
 The features under the student category allow you to keep track of and manage the students under you. You can see your
-student's details, such as their names, telegram handles, and email. The latter two aid you in contacting any students
+students' details, such as their names, telegram handles, and emails. The latter two aid you in contacting any students
 if necessary. You can also track each student's attendance and responses (the number of messages he or she has sent on
-Zoom) to record their participation.
+Zoom) to record his or her participation.
 
 ### Adding a student : `addstu`
 
-This feature allows you to add a student to SETA. To add a student, you must include their name, telegram handle and
+This feature allows you to add a student to SETA. To add a student, you must include his or her name, telegram handle and
 email.
 
 **Format**: `addstu n/NAME h/TELEGRAM_HANDLE e/EMAIL`
@@ -172,14 +170,12 @@ email.
 
 **Example**:
 * _Refer to the next page for an example._
-<br><br>
-Back to <a href="#toc">Table of Contents</a>
+
 <div style="page-break-after: always;"></div>
 
 * `addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com`
 <img src="images/ug-screenshots/addstu.png" alt="addstu n/John Lim Jun Jie h/@johnlimjj e/johnlim@example.com" width="800">
-<br><br>
-Back to <a href="#toc">Table of Contents</a>
+
 <div style="page-break-after: always;"></div>
 
 ### Editing a student: `editstu`
@@ -217,21 +213,17 @@ mistake or changes made to the student's details.
 
 **Examples**:
 * _Refer to the next page for an example._
-<br><br>
-Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 * `editstu 1 h/@aliceP a/4` Edits the telegram handle and attendance of the 1st student to @aliceP and 4
   respectively.
 
     * **Before**
-      <img src="images/ug-screenshots/editstu.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="800">\
+      <img src="images/ug-screenshots/editstu.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="800">
       <br>
     * **After**
       <img src="images/ug-screenshots/editstu_after.png" alt="editstu 1 h/@johnlim e/jljj@example.com" width="800">
 
-<br>
-Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
     
 ### Adding student's attendance : `attendance`
@@ -250,7 +242,7 @@ Example:
 ### Adding student's response: `addresponse`
 
 This feature allows you to edit your students' response count. This helps you to track your student's participation in
-the tutorial through the recording number of messages sent by him/her.
+the tutorial through the recording number of messages sent by him or her.
 
 Format: `addresponse INDEX m/MESSAGE_COUNT`
 
@@ -284,8 +276,6 @@ Format: `helpstu INDEX`
 Example:
 * _Refer to the next page for an example._
 
-<br>
-Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 * `helpstu 1`
 <img src="images/ug-screenshots/helpstu.png" alt="helpstu 1" width="800">
@@ -305,7 +295,7 @@ Example:
 ### Deleting a student: `deletestu`
 
 This feature allows you to remove a specific student. If a student has left the module or swapped tutorial group, you
-can delete him from the list.
+can delete him or her from the list.
 
 Format: `deletestu INDEX`
 
@@ -328,9 +318,6 @@ Examples:
 
 * `findstu bob`
 * `findstu john mary`
-
-<br>
-Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ### Listing all students: `liststu`
@@ -426,6 +413,7 @@ Format: `addtut [g/GROUP_NUMBER] [c/CONTENT] [t/DATE TIME]`
 </div>
 
 Example:
+* _Refer to the next page for an example._
 
 * `addtut g/T08 c/UML diagrams t/2022-10-01 1400`
   <img src="images/ug-screenshots/addtut_2101.png" width="800">
@@ -451,12 +439,10 @@ Format: `marktut INDEX`
 * Marks the tutorial at the specified `INDEX`.
 
 Example:
-
+* _Refer to the next page for an example._
 * `marktut 1` marks the first tutorial from the tutorial list as done.
 <img src="images/ug-screenshots/marktut.png" alt="before" width="800">
 
-<br>
-Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ### Marking a tutorial as undone: `unmarktut`
@@ -496,12 +482,9 @@ need to save manually.
 SETA data are saved as a [JSON file](#json-file) `[JAR file location]/data/seta.json`. Advanced users are welcome to
 update data directly by editing that data file.
 
-<div markdown="span" class="alert alert-warning">:exclamation: **Caution:**
+<div markdown="span" class="alert alert-danger">:exclamation: **Caution:**
 If your changes to the data file make its format invalid, SETA will discard all data and start with an empty data file at the next run.
-
 </div>
-
-Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ## FAQ
@@ -561,8 +544,7 @@ using our application!
 <strong>A</strong>: Unfortunately, the current version of SETA only accepts the date and time format
 of `YYYY-MM-DD HHmm`. However, there will be improvements made soon so that SETA can take in other date
 and time formats to better serve you. Please look forward to it!
-
-Back to <a href="#toc">Table of Contents</a>
+   
 <div style="page-break-after: always;"></div>
 
 ## Command Summary
@@ -582,8 +564,6 @@ This command summary gives you an overview of all the commands available in SETA
 | **Clear**      | [`clear`](#clearing-data-in-seta--clear)                                                                                                |
 | **Exit**       | [`exit`](#exiting-seta--exit)                                                                                                           |
 
-<br>
-Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ## Glossary
@@ -598,8 +578,6 @@ your questions and tutorials.
 
 ![CommandBox](images/ug-screenshots/commandbox.png)
 
-<br>
-Back to <a href="#toc">Table of Contents</a>
 <div style="page-break-after: always;"></div>
 
 ### Graphical User Interface (GUI)
@@ -620,6 +598,3 @@ information for the student, question and tutorial list.
 
 A [hard disk](https://en.wikipedia.org/wiki/Hard_disk_drive) (or hard disk drive) is a data storage device that
 stores and retrieves digital data. This is found in your device that is running SETA.
-
-<br>
-Back to <a href="#toc">Table of Contents</a>
