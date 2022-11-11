@@ -3,14 +3,16 @@ layout: page
 title: User Guide
 ---
 
-SETA (Software Engineering for Teaching Assistants) is a **desktop application for CS2103T Teaching Assistants** to 
-track 
-students’ and 
+SETA (Software Engineering for Teaching Assistants) is a **desktop application for CS2103T Teaching Assistants** to
+track
+students’ and
 tutorials’ details,
 and
-questions asked by students. SETA is optimized for use via a [Command Line Interface (CLI)](#command-line-interface-cli) while still having the
-benefits of a [Graphical User Interface (GUI)](#graphical-user-interface-gui). If you can type fast, SETA enables you to track your 
-students, 
+questions asked by students. SETA is optimized for use via a [Command Line Interface (CLI)](#command-line-interface-cli)
+while still having the
+benefits of a [Graphical User Interface (GUI)](#graphical-user-interface-gui). If you can type fast, SETA enables you to
+track your
+students,
 manage your
 tutorials and note-down questions more effectively than traditional GUI apps.
 
@@ -127,7 +129,8 @@ SETA contains features that allow you to manage 3 things:
   e.g. if the command specifies `liststu 123`, it will be interpreted as `liststu`.
 
 * `INDEX`, a commonly used parameter in our commands, must be a positive non-zero integer e.g. 1, 2, 3,... and less than
-  the number of items in its respective list e.g. for `markq`, `INDEX` must be less than the number of questions in the question
+  the number of items in its respective list e.g. for `markq`, `INDEX` must be less than the number of questions in the
+  question
   list.
 
 * `INDEX` refers to the index number shown in the respective displayed list.
@@ -150,7 +153,7 @@ email.
 
 **Format**: `addstu n/NAME h/TELEGRAM_HANDLE e/EMAIL`
 
-<div markdown="block" class="alert alert-success">
+<div markdown="block" class="alert alert-warning">
 
 **:x: Command Constraints**<br>
 
@@ -193,7 +196,7 @@ mistake or changes made to the student's details.
   (E.g. executing `editstu 1 h/@test` when student 1's telegram handle is already `@test`, will still be accepted as an
   edit.)
 
-<div markdown="block" class="alert alert-success">
+<div markdown="block" class="alert alert-warning">
 
 **:x: Command Constraints**<br>
 
@@ -254,10 +257,10 @@ Format: `addresponse INDEX m/MESSAGE_COUNT`
 * Edits response count of the student at the specified `INDEX`.
     * If `addresponse 1 m/7` is keyed in after `addresponse 1 m/2`, the response count for the first student in the
       student list will be 7 instead of 2.
-* If `m\0000000000` is given as an input, 0s will not be truncated and response will be displayed as
+* If `m\0000000000` is given as an input, 0s will not be truncated and the response will be displayed as
   `response: 000000000`
 
-<div markdown="block" class="alert alert-success">
+<div markdown="block" class="alert alert-warning">
 
 **:x: Command Constraints**<br>
 
@@ -274,7 +277,7 @@ Example:
 
 This feature allows you to add a help tag to an existing student. When you notice that a specific student has not been
 attending tutorials or needs help in general, you can enter this command to indicate that the student needs help. You
-will then have a rough idea who needs more of your attention during tutorials.
+will then have a rough idea of who needs more of your attention during tutorials.
 
 Format: `helpstu INDEX`
 
@@ -374,7 +377,6 @@ Example:
 
 ### Marking a question as unimportant : `unmarkq`
 
-
 This feature allows you to indicate on the display that this question is unimportant. It is used when if the question
 was marked as important by mistake.
 
@@ -409,7 +411,7 @@ This feature allows you to add a tutorial to SETA. To add a tutorial, you must i
 
 Format: `addtut [g/GROUP_NUMBER] [c/CONTENT] [t/DATE TIME]`
 
-<div markdown="block" class="alert alert-success">
+<div markdown="block" class="alert alert-warning">
 
 **:x: Command Constraints**<br>
 
@@ -419,6 +421,8 @@ Format: `addtut [g/GROUP_NUMBER] [c/CONTENT] [t/DATE TIME]`
 * Time constraints
     * Time must be in the 24hr format HHmm. (E.g. 1200 represents 12:00pm, 1300 represents 1.00pm)
     
+* Group and Content constraints
+    * The group and content should only contain alphanumeric characters and spaces, and it should not be blank.
 </div>
 
 Example:
@@ -493,7 +497,8 @@ SETA data are saved as a [JSON file](#json-file) `[JAR file location]/data/seta.
 update data directly by editing that data file.
 
 <div markdown="span" class="alert alert-warning">:exclamation: **Caution:**
-If your changes to the data file makes its format invalid, SETA will discard all data and start with an empty data file at the next run.
+If your changes to the data file make its format invalid, SETA will discard all data and start with an empty data file at the next run.
+
 </div>
 
 Back to <a href="toc">Table of Contents</a>
@@ -503,7 +508,7 @@ Back to <a href="toc">Table of Contents</a>
 
 You can find answers to frequently asked questions here.
 
-<h3><strong>General</strong></h3>
+<h3>General</h3>
 
 <strong>Q: How do I transfer my data to another Computer?</strong><br>
 <strong>A</strong>: Install the app on the other computer and overwrite the empty data file it creates with the file
@@ -522,37 +527,39 @@ able to see the sample data now.
 
    <br>
 
-<strong>Q: What is the difference between using the `exit` command and the cross button at the top right hand of the
+<strong>Q: What is the difference between using the `exit` command and the cross button at the top right-hand of the
 application?</strong><br>
-<strong>A</strong>: Both does the same job! The cross button is for your convenience if you feel typing `exit` is too
+<strong>A</strong>: Both do the same job! The cross button is for your convenience if you feel typing `exit` is too
 troublesome!
 
    <br>
 
-<strong>Q: What does the question mark at the top left-hand of the application do?</strong>
+
+<strong>Q: What does the question mark at the top left-hand of the application do?</strong>  
 <strong>A</strong>: You can simply click on that button to view the link to our User Guide if you face any issues when
 using our application!
+<div style="page-break-after: always;"></div>
 
-<h3><strong>Students</strong></h3>
+<h3>Students</h3>
 
 <strong>Q: How do I edit the attendance for my student?</strong><br>
 <strong>A</strong>: There are 2 ways you can edit the attendance of your students!
 
 * Using the `editstu` feature. The `editstu` feature allows you to edit the attendance by any number.   
   (E.g. `editstu 3 a/5` changes the attendance of student 3 to 5.)
-* Using the `attendance` feature. The `attendance` feature allows you to increase the attendance by 1.   
+* Using the `attendance` feature. The `attendance` feature allows you to increase attendance by 1.   
   (E.g. `attendance 2` increases attendance of student 2 by 1.)
 
-<h3><strong>Questions</strong></h3>
+<h3>Questions</h3>
 
 <strong>Q: Is there a way to delete all the questions using one command?</strong><br>
 <strong>A</strong>: Unfortunately, this feature will be rolled out in a future version of the app. Stay tuned!
 
-<h3><strong>Tutorials</strong></h3>
+<h3>Tutorials</h3>
 
 <strong>Q: Can I type the date and time in a different format?</strong><br>
 <strong>A</strong>: Unfortunately, the current version of SETA only accepts the date and time format
-of `YYYY-MM-DD HHmm`. However, there will be improvements made in the near future so that SETA can take in other date
+of `YYYY-MM-DD HHmm`. However, there will be improvements made soon so that SETA can take in other date
 and time formats to better serve you. Please look forward to it!
 
 Back to <a href="toc">Table of Contents</a>
@@ -562,18 +569,18 @@ Back to <a href="toc">Table of Contents</a>
 
 This command summary gives you an overview of all the commands available in SETA for your easy reference.
 
-| Action         | Format, Examples                           |
-|----------------|--------------------------------------------|
-| **Add**        | `addstu`, `addq`, `addtut`                 |
-| **Attendance** | `attendance`, `addresponse`                |
-| **Delete**     | `deletestu`, `deleteq`, `deletetut`        |
-| **Edit**       | `editstu`                                  |
-| **Find**       | `findstu`                                  |
-| **List**       | `liststu`                                  |
-| **Mark**       | `markq`, `unmarkq`, `marktut`, `unmarktut` |
-| **Tag**        | `helpstu`, `unhelpstu`                     |
-| **Clear**      | `clear`                                    |
-| **Exit**       | `exit`                                     |
+| Action         | Format, Examples                                                                                                                        |
+|----------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| **Add**        | [`addtut`](#adding-a-tutorial--addtut), [`addq`](#adding-a-question--addq), [`addtut`](#adding-a-tutorial--addtut)                      |
+| **Attendance** | [`attendance`](#adding-students-attendance--attendance), [`addresponse`](#adding-students-response-addresponse)                         |
+| **Delete**     | [`deletestu`](#deleting-a-student-deletestu), [`deleteq`](#deleting-a-question--deleteq), [`deletetut`](#deleting-a-tutorial--deletetut) |
+| **Edit**       | [`editstu`](#editing-a-student-editstu)                                                                                                 |
+| **Find**       | [`findstu`](#finding-a-student-findstu)                                                                                                 |
+| **List**       | [`liststu`](#listing-all-students-liststu)                                                                                              |
+| **Mark**       | [`markq`](#marking-a-question-as-important--markq), [`unmarkq`](#marking-a-question-as-unimportant--unmarkq), [`marktut`](#marking-a-tutorial-marktut), [`unmarktut`](#marking-a-tutorial-as-undone-unmarktut)                                                                                     |
+| **Tag**        | [`helpstu`](#adding-help-tag-helpstu), [`unhelpstu`](#removing-help-tag-unhelpstu)                                                                                                                  |
+| **Clear**      | [`clear`](#clearing-data-in-seta--clear)                                                                                                |
+| **Exit**       | [`exit`](#exiting-seta--exit)                                                                                                           |
 
 <br>
 Back to <a href="toc">Table of Contents</a>
@@ -581,7 +588,7 @@ Back to <a href="toc">Table of Contents</a>
 
 ## Glossary
 
-This glossary provides the definitions of certain terms used in this user guide.
+This glossary provides you with the definitions of certain terms used in this user guide.
 
 ### Command Line Interface (CLI)
 
@@ -604,13 +611,14 @@ For example, as seen in the image below, clicking on the exit button (top right 
 
 ### JSON file
 
-A [JSON](https://en.wikipedia.org/wiki/JSON) (JavaScript Object Notation) file is a file with an open standard file format and a data interchange format. 
-Its purpose is to use human-readable text to store and transmit data objects. Such a file is used in SETA to store 
+A [JSON](https://en.wikipedia.org/wiki/JSON) (JavaScript Object Notation) file is a file with an open standard file
+format and a data interchange format.
+Its purpose is to use human-readable text to store and transmit data objects. Such a file is used in SETA to store
 information for the student, question and tutorial list.
 
 ### Hard Disk
 
-A [hard disk](https://en.wikipedia.org/wiki/Hard_disk_drive) (or hard disk drive) is a data storage device that 
+A [hard disk](https://en.wikipedia.org/wiki/Hard_disk_drive) (or hard disk drive) is a data storage device that
 stores and retrieves digital data. This is found in your device that is running SETA.
 
 <br>
