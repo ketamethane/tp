@@ -140,13 +140,13 @@ SETA contains features that allow you to manage 3 things:
 ## Students
 
 The features under the student category allow you to keep track of and manage the students under you. You can see your
-student's details, such as their names, telegram handles, and email. The latter two aid you in contacting any students
+students' details, such as their names, telegram handles, and emails. The latter two aid you in contacting any students
 if necessary. You can also track each student's attendance and responses (the number of messages he or she has sent on
-Zoom) to record their participation.
+Zoom) to record his or her participation.
 
 ### Adding a student : `addstu`
 
-This feature allows you to add a student to SETA. To add a student, you must include their name, telegram handle and
+This feature allows you to add a student to SETA. To add a student, you must include his or her name, telegram handle and
 email.
 
 **Format**: `addstu n/NAME h/TELEGRAM_HANDLE e/EMAIL`
@@ -242,7 +242,7 @@ Example:
 ### Adding student's response: `addresponse`
 
 This feature allows you to edit your students' response count. This helps you to track your student's participation in
-the tutorial through the recording number of messages sent by him/her.
+the tutorial through the recording number of messages sent by him or her.
 
 Format: `addresponse INDEX m/MESSAGE_COUNT`
 
@@ -295,7 +295,7 @@ Example:
 ### Deleting a student: `deletestu`
 
 This feature allows you to remove a specific student. If a student has left the module or swapped tutorial group, you
-can delete him from the list.
+can delete him or her from the list.
 
 Format: `deletestu INDEX`
 
