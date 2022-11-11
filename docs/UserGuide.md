@@ -557,7 +557,7 @@ This command summary gives you an overview of all the commands available in SETA
 
 ## Glossary
 
-This glossary provides the definitions of certain terms used in this user guide.
+This glossary provides you with the definitions of certain terms used in this user guide.
 
 ### Command Line Interface (CLI)
 
